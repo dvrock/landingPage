@@ -1,0 +1,161 @@
+.column1 {
+	border-radius: 10px;
+	padding-left: 50%;
+	padding-right: 50%;
+	width: 120%;
+}
+
+.border:hover {
+	box-shadow: 5px 5px 5px 5px #888888;
+}
+@media (min-width: 1050px) {
+	.menu {
+		display: block;
+	}
+	.slideText4 {
+		font-size: 1rem;
+	}
+	.button2 {
+		margin-left: 3%;
+		height: 4vw;
+		width: 13vw;
+
+		border-radius: 40px;
+	}
+	.slideText3 {
+		font-size: 1.5rem;
+	}
+	.card4 {
+		padding-top: 2.5%;
+
+		border-radius: 10px;
+		margin-left: 22%;
+		justify-content: center;
+		width: 50vw;
+
+		height: 150px;
+	}
+	.border {
+		border-radius: 10px;
+
+		padding-top: 4%;
+		height: 250px;
+		width: 500px;
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+
+	.card3 {
+		border-radius: 10px;
+		width: 50vw;
+
+		height: 150px;
+		justify-content: center;
+		padding-top: 2.5%;
+		padding-bottom: 1%;
+	}
+	.card12 {
+		border: none !important;
+	}
+	.card22 {
+		border: none !important;
+	}
+	.button3 {
+		margin-right: 10%;
+	}
+}
+@media (max-width: 1050px) {
+	.slideText4 {
+		font-size: 1rem;
+	}
+	.padding1 {
+		padding-left: 8%;
+		padding-right: 8%;
+		width: 10%;
+	}
+	.button3 {
+		margin-left: 10%;
+	}
+	.button2 {
+		height: 40px;
+		width: 130px;
+		border-top-left-radius: 10vw;
+		border-bottom-left-radius: 10vw;
+		border-bottom-right-radius: 10vw;
+		border-top-right-radius: 10vw;
+	}
+	.bottom {
+		margin-left: 10%;
+
+		margin-right: 10%;
+	}
+	.slideText3 {
+		font-size: 0.75rem;
+	}
+	.card12 {
+		margin-bottom: 3%;
+	}
+	.card22 {
+		margin-bottom: 3%;
+	}
+	.card32 {
+		margin-bottom: 3%;
+	}
+	.card42 {
+		margin-bottom: 3%;
+	}
+
+	.card3 {
+		border-radius: 10px;
+		justify-content: center;
+		padding-top: 1%;
+		padding-bottom: 1%;
+		width: 140vw;
+		margin-right: 2%;
+	}
+	.card4 {
+		margin-right: 2%;
+
+		border-radius: 10px;
+		justify-content: center;
+		margin-left: 40%;
+		width: 150vw;
+		padding-left: 1%;
+		padding-right: 1%;
+		padding-top: 1%;
+		padding-bottom: 1%;
+	}
+	.border {
+		border-radius: 10px;
+		border-color: black;
+		padding-top: 10%;
+		height: 300px;
+		width: 500px;
+	}
+}
+.card4:hover {
+	background-color: red;
+	border: 1px solid white;
+	box-shadow: 5px 5px 5px 5px #888888;
+}
+.card3:hover {
+	background-color: red;
+	border: 1px solid white;
+	box-shadow: 5px 5px 5px 5px #888888;
+}
+@media (min-width: 450px) {
+	.plus {
+		display: none;
+	}
+}
+@media (max-width: 450px) {
+	.div {
+		display: none !important;
+	}
+	.plus {
+		display: block;
+		position: absolute;
+		right: 0;
+		margin-right: 10%;
+	}
+}

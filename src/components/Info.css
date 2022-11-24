@@ -1,0 +1,169 @@
+#about-us {
+	background-color: rgba(255, 255, 255, 0.96);
+	color: black;
+}
+@media (min-width: 900px) {
+	.pic5 {
+		margin-right: -80%;
+	}
+	.row3 {
+		height: 70vw;
+	}
+	.our {
+		margin-left: -20%;
+	}
+	.col3 {
+		font-size: 2rem;
+		margin-left: -23%;
+		white-space: nowrap;
+		text-align: start;
+	}
+	.col4 {
+		white-space: nowrap;
+		margin-left: -23%;
+		font-size: 1.5rem;
+		text-align: start;
+	}
+	#about-us {
+		background-color: rgba(255, 255, 255, 0.96);
+		color: black;
+		font-size: 1rem;
+	}
+	.info {
+		font-size: 4rem;
+	}
+	.slideText1 {
+		font-size: 1.5rem;
+	}
+	.slideText2 {
+		font-size: 1.5rem;
+	}
+	.mobile1 {
+		margin-left: -90%;
+		height: 55vw;
+		width: 45vw;
+
+		margin-top: 10px;
+	}
+	.mobile2 {
+		height: 55vw;
+		width: 45vw;
+		margin-top: 10px;
+	}
+	.col5 {
+		margin-left: 20%;
+	}
+	.work {
+		margin-left: 2%;
+		width: 95%;
+	}
+}
+@media (max-width: 900px) {
+	/* .row3 {
+		height: 100vw;
+	}
+	.row4 {
+		height: 200vw;
+	} */
+	.slideText2 {
+		font-size: 1rem;
+	}
+	.our {
+		width: '10%';
+	}
+	.mobile2 {
+		margin-left: 0%;
+		height: 300px;
+		width: 250px;
+		margin-top: 10px;
+	}
+	.col5 {
+		margin-left: 0%;
+	}
+	.col3 {
+		font-size: 1.5rem;
+		text-align: start;
+	}
+	.work {
+		margin-left: 10%;
+		width: 80%;
+	}
+	.col4 {
+		font-size: 1rem;
+		text-align: center;
+	}
+	#about-us {
+		background-color: rgba(255, 255, 255, 0.96);
+		color: black;
+		font-size: 0.8rem;
+	}
+	.info {
+		font-size: 2.2rem;
+	}
+	.slideText1 {
+		font-size: 1rem;
+	}
+
+	.mobile1 {
+		margin-left: 0%;
+		height: 300px;
+		width: 250px;
+		margin-top: 10px;
+	}
+}
+.setSize1 {
+	z-index: -30;
+	position: absolute;
+	right: 2%;
+}
+.setSize2 {
+	z-index: -30;
+	position: absolute;
+	left: 2%;
+}
+.setSize3 {
+	z-index: -30;
+	position: absolute;
+	left: -3%;
+}
+
+.setSize4 {
+	z-index: -30;
+	position: absolute;
+}
+.setSize5 {
+	top: 100%;
+	z-index: -30;
+	position: absolute;
+}
+.setSize6 {
+	top: 100%;
+}
+.slide14 {
+	animation: a3 1s forwards ease-in-out;
+}
+@keyframes a3 {
+	from {
+		opacity: 0%;
+
+		margin-top: -10%;
+	}
+	to {
+		opacity: 100%;
+
+		margin-top: 0%;
+	}
+}
+.part1 {
+	opacity: 0%;
+}
+hr {
+	display: block;
+	margin-before: 0.5em;
+	margin-after: 0.5em;
+	margin-start: auto;
+	margin-end: auto;
+	overflow: hidden;
+	border-style: inset;
+	border-width: 1px;
+}

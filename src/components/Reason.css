@@ -1,0 +1,96 @@
+@media (min-width: 1050px) {
+	.cardlast {
+		margin-right: -7%;
+	}
+	.slideText2 {
+		font-size: 1.5rem;
+	}
+	.cardText {
+		font-size: 1.3rem;
+	}
+	.mobileBottom {
+		margin-top: 700%;
+	}
+	.card1 {
+		border: 1px solid white;
+		border-radius: 10px;
+		border-color: black;
+		padding-top: 10%;
+		width: 300px;
+	}
+	.card3 {
+		border: 1px solid white;
+		border-radius: 10px;
+		border-color: black;
+		width: 300px;
+		height: 400px;
+		margin-left: 5vw;
+	}
+	.card2 {
+		padding-top: 10%;
+		border: 1px solid white;
+		border-radius: 10px;
+		border-color: black;
+		width: 500px;
+		height: 400px;
+	}
+	.col6 {
+		font-size: 2rem;
+	}
+	.card1 {
+		border: 1px solid white;
+		border-radius: 10px;
+		border-color: black;
+
+		width: 500px;
+	}
+}
+@media (max-width: 1050px) {
+	.cardText {
+		font-size: 0.8rem;
+		margin-bottom: 20%;
+	}
+	.mobileBottom {
+		margin-top: 1450%;
+	}
+	.col6 {
+		font-size: 1.5rem;
+	}
+	.card1 {
+		border: 1px solid white;
+		border-radius: 10px;
+		border-color: black;
+		padding-top: 5%;
+		width: 80vw;
+	}
+	.card2 {
+		border: 1px solid white;
+		border-radius: 10px;
+		border-color: black;
+		margin-left: 32%;
+		width: 80vw;
+		padding-top: 5%;
+	}
+	.scroll {
+		overflow-x: auto;
+	}
+	.col7 {
+		width: 200%;
+	}
+}
+.card1:hover {
+	box-shadow: 5px 5px 5px 5px #888888;
+}
+.card2:hover {
+	box-shadow: 5px 5px 5px 5px #888888;
+}
+.body {
+	background-image: url('../Assets/background.png');
+	height: 400%;
+}
+#reason {
+	background-color: rgba(255, 255, 255, 0.96);
+	color: black;
+
+	padding-bottom: 20%;
+}
